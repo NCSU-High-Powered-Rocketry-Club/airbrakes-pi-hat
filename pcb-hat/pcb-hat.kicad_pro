@@ -475,11 +475,29 @@
         "wire_width": 6
       },
       {
+        "bus_width": 10,
+        "line_style": 0,
+        "name": "+BATT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(72, 0, 0)",
+        "wire_width": 10
+      },
+      {
+        "bus_width": 6,
+        "line_style": 0,
+        "name": "5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 255)",
+        "wire_width": 6
+      },
+      {
         "bus_width": 8,
         "line_style": 0,
         "name": "VDC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(194, 0, 0)",
         "wire_width": 8
       }
@@ -497,6 +515,22 @@
       {
         "netclass": "VDC",
         "pattern": "/Fuse_Out"
+      },
+      {
+        "netclass": "+BATT",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "+BATT",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "+BATT",
+        "pattern": "VCC_LOAD"
       }
     ]
   },
