@@ -291,15 +291,15 @@
 		(uuid "a40bb1b4-bf36-487f-a55e-3ec1407650b4")
 	)
 	(embedded_fonts no)
-	(model "NTMFS5C468NLT1G.stp"
+	(model "${KIPRJMOD}/3dmodels/NTMFS5C468NLT1G.stp"
 		(offset
-			(xyz 1.899999948 2.769999939 0)
+			(xyz 2 2.75 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

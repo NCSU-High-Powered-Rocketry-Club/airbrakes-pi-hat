@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 4.318 3.81 0)
+		(at 2.54 2.54 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b8a950ba-efec-43f7-97b5-051224d02d23")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "XT60"
-		(at -0.254 -5.588 0)
+		(at 0 -3.81 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e6f96217-7dc9-4684-aee7-5323da549023")
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -6.604 -2.794)
-		(end 6.35 2.794)
+		(start -2.667 -1.524)
+		(end 2.667 1.524)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -65,8 +65,19 @@
 		(layer "F.SilkS")
 		(uuid "3906efdc-c08a-4101-92bf-f2b4d575fae8")
 	)
+	(fp_rect
+		(start -2.667 -1.524)
+		(end 2.667 1.524)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "20a58adf-8a40-460e-9104-a70772e550ab")
+	)
 	(fp_text user "${REFERENCE}"
-		(at -0.254 -4.088 0)
+		(at 0 -2.31 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "896b5fb9-e9a2-4b80-bd3a-954d0bc69384")
@@ -77,23 +88,43 @@
 			)
 		)
 	)
-	(pad "1" thru_hole oval
-		(at -3.5 0)
-		(size 4.5 4)
-		(drill 3)
+	(pad "1" thru_hole circle
+		(at -1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
 		(uuid "cfd5f5ab-23c9-4688-ae1e-5cd46a921382")
 	)
-	(pad "2" thru_hole oval
-		(at 3.5 0)
-		(size 4.5 4)
-		(drill 3)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
 		(uuid "42ad1a55-379b-4b46-81e1-be3479385689")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
+		(offset
+			(xyz 1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.step"
+		(offset
+			(xyz -1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

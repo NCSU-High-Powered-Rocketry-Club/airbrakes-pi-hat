@@ -2135,24 +2135,6 @@
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 30.48 180)
-				(length 5.08)
-				(name "5V"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
 				(number "4"
 					(effects
 						(font
@@ -2172,24 +2154,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 27.94 180)
-				(length 5.08)
-				(name "3V3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "17"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2396,61 +2360,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -13.97 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 -13.97 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 -13.97 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 25.4 -13.97 180)
+				(at 25.4 -11.43 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -2467,9 +2377,126 @@
 					)
 				)
 			)
+		)
+		(symbol "Raspberry_Pi_Generic_1_0"
 			(pin power_in line
-				(at 25.4 -13.97 180)
+				(at 25.4 30.48 180)
 				(length 5.08)
+				(hide yes)
+				(name "5V"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 27.94 180)
+				(length 5.08)
+				(hide yes)
+				(name "3V3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -11.43 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -11.43 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -11.43 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -11.43 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -11.43 180)
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -2486,8 +2513,9 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -13.97 180)
+				(at 25.4 -11.43 180)
 				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -2504,8 +2532,9 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -13.97 180)
+				(at 25.4 -11.43 180)
 				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
