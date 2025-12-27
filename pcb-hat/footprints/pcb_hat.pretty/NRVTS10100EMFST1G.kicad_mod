@@ -6,7 +6,7 @@
 	(descr "NMOS")
 	(tags "MOSFET (N-Channel)")
 	(property "Reference" "Q**"
-		(at 1.905 -2.509 0)
+		(at 1.8 -7.6 0)
 		(layer "F.SilkS")
 		(uuid "c3ed1a4a-54e7-42bc-b1de-70cb4b9ee61f")
 		(effects
@@ -146,8 +146,8 @@
 		(uuid "a2d0783a-af7a-4365-9966-95474f7f87e1")
 	)
 	(fp_line
-		(start -1.87 -7.017)
-		(end 5.68 -7.017)
+		(start -1.2 -6.6)
+		(end 5 -6.6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -156,8 +156,8 @@
 		(uuid "90a885d0-dc38-4e9e-8773-3c4fac01b613")
 	)
 	(fp_line
-		(start -1.87 2)
-		(end -1.87 -7.017)
+		(start -1.2 1.2)
+		(end -1.2 -6.6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -166,8 +166,8 @@
 		(uuid "7b6ae80e-fd4e-4d20-bd0c-d18fe7641b7d")
 	)
 	(fp_line
-		(start 5.68 -7.017)
-		(end 5.68 2)
+		(start 5 -6.6)
+		(end 5 1.2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -176,8 +176,8 @@
 		(uuid "de16b351-6cd7-4239-ab1b-aefe4ac0ce82")
 	)
 	(fp_line
-		(start 5.68 2)
-		(end -1.87 2)
+		(start 5 1.2)
+		(end -1.2 1.2)
 		(stroke
 			(width 0.1)
 			(type solid)
