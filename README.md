@@ -1,20 +1,22 @@
 # airbrakes-pi-hat
 
-Custom made Pi hat for use in Airbrakes
+Custom made Pi hat, named "Airbender", for use in Airbrakes
 
 This repository contains the KiCad project files for a Raspberry Pi hat. This Pi hat is meant to control
 airbrakes (see the [airbrakes repository](https://github.com/NCSU-High-Powered-Rocketry-Club/AirbrakesV2) for more details on the airbrakes system).
 
-## Pi Hat Features
+[![Airbender Front](pcb-hat/pictures/airbender_front.jpg)](pcb-hat/pictures/airbender_front.jpg)
+[![Airbender Back](pcb-hat/pictures/airbender_back.jpg)](pcb-hat/pictures/airbender_back.jpg)
+
+
+## Features
 
 - Supports from 7V to 18V input voltage
 - Variable output voltage for the servo power rail (7V to 14V), while simultaneously powering the Pi at 5V
 - Current and voltage sensing for both the servo power rail and overall input power rail
 - Reverse polarity protection on the input power rail
 - LEDs for power and status indication
-- Breakout unused GPIO pins to a header for future expansion
-- Enable easy usage of a camera by allowing the camera ribbon cable to pass through the hat
-- Physical switch to use a servo via PWM or communicate with the servo via UART
+- Solder jumper pad to select using a servo via PWM or communicate with the servo via UART
 - MOSFET to disable power to the servo rail when not in use
 - Software controlled buzzer for audible alerts
 - Resettable fuse to protect against long servo stalls
@@ -93,9 +95,10 @@ Before requesting fab or assembling a board, run this checklist:
 1. Run ERC (Eeschema > Tools > ERC) and fix all warnings.
 2. Run DRC in PCB Editor and resolve all errors.
 3. Create a BOM and confirm manufacturer part numbers and footprints match.
-4. Generate Gerbers and drill files (Plot + Generate Drill Files) and inspect them in GerbView.
-5. Check 3D model alignment in PCB Editor (View > 3D Viewer) to ensure components fit.
-6. Tag or branch the repo in Git to preserve the release snapshot.
+4. Get the [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) plugin from the KiCad plugin repo
+5. Click the generate gerber files button in the PCB editor (via the plugin). Keep all default options. Then export it. 
+6. Check 3D model alignment in PCB Editor (View > 3D Viewer) to ensure components fit.
+7. Tag or branch the repo in Git to preserve the release snapshot.
 
 ---
 

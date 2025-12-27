@@ -275,19 +275,19 @@
 		(layer "F.Fab")
 		(uuid "2514bd9f-4b41-419c-a34d-44c86cfe37aa")
 	)
-	(pad "A" smd rect
-		(at 0.75 0)
-		(size 0.8 0.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "f39fad2e-dd90-4533-bbb1-331725fb0d72")
-	)
-	(pad "C" smd rect
+	(pad "1" smd rect
 		(at -0.75 0)
 		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "d234727f-3b83-4037-81ee-9df939ceb9cb")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f39fad2e-dd90-4533-bbb1-331725fb0d72")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/LTST-C190GKT.step"
