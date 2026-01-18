@@ -9740,7 +9740,7 @@
 				)
 			)
 		)
-		(property "Value" "AP63300WU-7"
+		(property "Value" "AP63301WU-7"
 			(at 118.11 16.51 0)
 			(effects
 				(font
@@ -9776,7 +9776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "31-AP63300WU-7CT-ND"
+		(property "Digikey PN" "31-AP63301WU-7CT-ND"
 			(at 118.11 29.21 0)
 			(effects
 				(font
@@ -9829,7 +9829,7 @@
 				)
 			)
 		)
-		(property "Value" "AP63300WU-7"
+		(property "Value" "AP63301WU-7"
 			(at 190.5 20.066 0)
 			(effects
 				(font
@@ -9865,7 +9865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "31-AP63300WU-7CT-ND"
+		(property "Digikey PN" "31-AP63301WU-7CT-ND"
 			(at 190.5 31.75 0)
 			(effects
 				(font
