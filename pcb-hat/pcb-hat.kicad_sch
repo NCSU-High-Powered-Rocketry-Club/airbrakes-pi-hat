@@ -13365,6 +13365,15 @@
 				(hide yes)
 			)
 		)
+		(property "Note" "Make sure to get current rating of 3A"
+			(at 171.45 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78f77733-3bf8-4a78-9202-5ecea3a0bf6f")
 		)
