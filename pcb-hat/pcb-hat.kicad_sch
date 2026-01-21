@@ -1145,173 +1145,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148WS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148WS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148WS_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148WS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -5584,8 +5417,8 @@
 		(uuid d3ad3006-6b0e-4848-99c1-0e11833d393f)
 	)
 	(rectangle
-		(start 109.22 129.54)
-		(end 161.29 158.75)
+		(start 106.68 129.54)
+		(end 121.92 168.91)
 		(stroke
 			(width 0)
 			(type default)
@@ -5607,7 +5440,7 @@
 	)
 	(text "Buzzer"
 		(exclude_from_sim no)
-		(at 113.284 131.318 0)
+		(at 110.744 131.318 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5955,12 +5788,6 @@
 		(uuid "6634a41d-513e-490e-9b2d-e9a758fbc8ff")
 	)
 	(junction
-		(at 120.65 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74f2b462-9f00-4855-b547-5e8576a1d1e7")
-	)
-	(junction
 		(at 214.63 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6031,12 +5858,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b76d1eaf-67d1-464c-957a-a7dcd7796a8e")
-	)
-	(junction
-		(at 120.65 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bea53058-51e3-4ec2-af44-036ddb187957")
 	)
 	(junction
 		(at 203.2 30.48)
@@ -6155,16 +5976,6 @@
 	(no_connect
 		(at 267.97 127)
 		(uuid "e12115fc-e0df-4be9-890c-d729a115b9d5")
-	)
-	(wire
-		(pts
-			(xy 114.3 142.24) (xy 120.65 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011c8d45-8f70-41b1-9100-6586adcc5cf5")
 	)
 	(wire
 		(pts
@@ -6538,16 +6349,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 154.94) (xy 139.7 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40656a30-580a-40d7-baa3-7b5b92e1c047")
-	)
-	(wire
-		(pts
 			(xy 62.23 72.39) (xy 69.85 72.39)
 		)
 		(stroke
@@ -6619,7 +6420,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 154.94) (xy 120.65 153.67)
+			(xy 114.3 153.67) (xy 114.3 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6636,26 +6437,6 @@
 			(type default)
 		)
 		(uuid "512601f6-0ac7-40c6-aca8-ff11a837f218")
-	)
-	(wire
-		(pts
-			(xy 114.3 154.94) (xy 120.65 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5329e91f-5d15-45ba-b975-41611f51ddde")
-	)
-	(wire
-		(pts
-			(xy 139.7 154.94) (xy 139.7 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54fe8654-9d34-472d-903c-9f6efb46a01b")
 	)
 	(wire
 		(pts
@@ -7009,16 +6790,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 149.86) (xy 114.3 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95b4344f-16df-4dca-bf1e-332458170ca0")
-	)
-	(wire
-		(pts
 			(xy 228.6 30.48) (xy 232.41 30.48)
 		)
 		(stroke
@@ -7199,16 +6970,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 143.51) (xy 139.7 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bac61081-61d0-4a74-b6fd-a58c03300034")
-	)
-	(wire
-		(pts
 			(xy 214.63 35.56) (xy 214.63 36.83)
 		)
 		(stroke
@@ -7369,16 +7130,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 138.43) (xy 120.65 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f6c1b9-3271-45bc-bcd8-8c2c3bdc4de2")
-	)
-	(wire
-		(pts
 			(xy 114.3 62.23) (xy 114.3 67.31)
 		)
 		(stroke
@@ -7429,7 +7180,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 142.24) (xy 120.65 143.51)
+			(xy 114.3 137.16) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7758,6 +7509,16 @@
 		)
 		(uuid "4b235cfd-823d-4f45-9005-96028595ddf7")
 	)
+	(label "GPIO5"
+		(at 114.3 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ff33e31-2584-4517-ad4c-775540e735e7")
+	)
 	(label "GPIO26"
 		(at 92.71 114.3 0)
 		(effects
@@ -7887,16 +7648,6 @@
 			(justify left bottom)
 		)
 		(uuid "85dcb3ca-e159-40c6-9c6e-b8666c11d1bb")
-	)
-	(label "GPIO5"
-		(at 147.32 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99de84ca-3332-44a3-81ab-5d348cca761a")
 	)
 	(label "GPIO18"
 		(at 209.55 116.84 0)
@@ -8429,6 +8180,72 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "111d49a3-42e0-4aee-a085-c41a9012c202")
+		(property "Reference" "#PWR029"
+			(at 114.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d00f2c06-abbd-4a63-bd86-50f46cda7ffd")
+		)
+		(instances
+			(project ""
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11511,7 +11328,7 @@
 	)
 	(symbol
 		(lib_id "PiHatComponents:SMI-1027-T-5V-R")
-		(at 123.19 148.59 0)
+		(at 116.84 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11519,7 +11336,7 @@
 		(dnp no)
 		(uuid "608473a3-832b-49af-887c-8bdfdee72dc6")
 		(property "Reference" "LS1"
-			(at 121.92 142.494 0)
+			(at 115.57 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +11345,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 118.364 163.322 0)
+			(at 112.014 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11538,7 +11355,7 @@
 			)
 		)
 		(property "Footprint" "pcb_hat:XDCR_SMI-1027-T-5V-R"
-			(at 125.476 133.604 0)
+			(at 119.126 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11548,7 +11365,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.google.com/gview?url=https://api.puiaudio.com/filename/SMI-1027-T-5V-R.pdf&embedded=true"
-			(at 123.19 148.59 0)
+			(at 116.84 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11557,7 +11374,7 @@
 			)
 		)
 		(property "Description" "SMD Buzzer"
-			(at 123.19 148.59 0)
+			(at 116.84 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11566,7 +11383,7 @@
 			)
 		)
 		(property "PARTREV" "03/26/2020"
-			(at 136.906 141.732 0)
+			(at 130.556 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11576,7 +11393,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.20 mm"
-			(at 137.668 146.05 0)
+			(at 131.318 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11586,7 +11403,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Pui Audio"
-			(at 111.506 138.43 0)
+			(at 105.156 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11596,7 +11413,7 @@
 			)
 		)
 		(property "Digikey PN" "smi-1027-t-5v-r"
-			(at 123.19 148.59 0)
+			(at 116.84 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13116,72 +12933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 120.65 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e5354ae-0500-42a6-bf13-719a8702fd26")
-		(property "Reference" "#PWR029"
-			(at 120.65 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 120.65 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 120.65 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3481788-1600-4f06-9cbc-7de3273994e4")
-		)
-		(instances
-			(project ""
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 69.85 92.71 0)
 		(unit 1)
@@ -14334,102 +14085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 114.3 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae2881fa-cc3d-4f54-a0d7-36022ee7fca2")
-		(property "Reference" "D6"
-			(at 109.982 142.748 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 111.76 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 109.855 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey PN" "1N4148WSFSCT-ND"
-			(at 114.3 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f293569-0f72-4aa6-bff1-b04d80e72d5c")
-		)
-		(pin "2"
-			(uuid "0ec31f3e-bd6b-4a1b-a314-dee2c6209b70")
-		)
-		(instances
-			(project "pcb-hat"
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 106.68 110.49 0)
 		(unit 1)
@@ -14490,87 +14145,6 @@
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 142.24 148.59 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba0df6fe-18da-44d8-b7c1-f143bed5e8cb")
-		(property "Reference" "Q4"
-			(at 137.668 151.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002K_R1_00001"
-			(at 160.02 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
-			(at 137.16 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/2N7002K.pdf"
-			(at 142.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 142.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey PN" "3757-2N7002K_R1_00001CT-ND"
-			(at 142.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b61a53f-7ef5-489e-b520-690555df43c5")
-		)
-		(pin "3"
-			(uuid "7cc88e1e-e9da-4e7e-ab9e-7aaadb4c9cb7")
-		)
-		(pin "1"
-			(uuid "421385ea-f62f-4764-bce6-1f4823fc6840")
-		)
-		(instances
-			(project "pcb-hat"
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -15191,71 +14765,6 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6d8305a-4f09-47fa-8246-1d84b2ed201d")
-		(property "Reference" "#PWR031"
-			(at 134.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "675896a1-4d29-4b16-9e5e-cc3626130bc7")
-		)
-		(instances
-			(project ""
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
