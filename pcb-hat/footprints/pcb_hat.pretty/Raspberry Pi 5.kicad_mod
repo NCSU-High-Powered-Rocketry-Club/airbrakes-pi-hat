@@ -6,7 +6,7 @@
 	(property "Reference" "RPi5"
 		(at 0 -0.5 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "430d8444-dbb0-42f0-8f39-a9b8030e911a")
 		(effects
 			(font
@@ -59,11 +59,22 @@
 		(end 0 4)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "d965ca0b-69c7-4ffe-90a8-5fcb30513ebf")
+	)
+	(fp_rect
+		(start -3.35 3.49)
+		(end 3.37 6.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "573984cf-9e88-4b50-8b53-a09202d19bc5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
@@ -78,7 +89,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/3dmodels/RaspberryPi5.step"
+	(model "${KIPRJMOD}/3dmodels/raspberry_pi_5.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -86,7 +97,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 90)
+			(xyz 0 0 0)
 		)
 	)
 )

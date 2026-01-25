@@ -41,3 +41,7 @@ fp-info-cache
 
 # Don't export plotted files
 *.pdf
+
+production/
+bom/
+pcb-hat.step

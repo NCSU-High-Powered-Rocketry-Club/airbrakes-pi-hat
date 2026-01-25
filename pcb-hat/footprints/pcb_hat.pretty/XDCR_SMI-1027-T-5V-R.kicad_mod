@@ -251,14 +251,14 @@
 		(layer "F.Fab")
 		(uuid "a9681761-90c5-4d30-acba-05661f365c0c")
 	)
-	(pad "LOAD+" smd rect
+	(pad "1" smd rect
 		(at 4.175 0)
 		(size 2.65 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "efc646e5-1493-44ac-8df3-ec5b9c8faf0b")
 	)
-	(pad "LOAD-" smd rect
+	(pad "2" smd rect
 		(at -4.175 0)
 		(size 2.65 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
