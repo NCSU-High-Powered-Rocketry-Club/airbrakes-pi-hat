@@ -98,6 +98,22 @@
         [
           "missing_courtyard|131541364|87398636|6c266662-959c-4eb3-98da-577221d12705|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "silk_over_copper|117060000|105870218|c42881a9-4618-46ce-aa89-7a46db4f8dbd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|122089782|106210000|82642181-207d-4842-9aab-683c065cf03a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|125786709|104579552|cc439f53-9fbb-4206-a950-a2f02eb15d34|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|139140000|78059782|d4bc12fd-e33c-486c-b2db-4c2142b5e974|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -753,6 +769,24 @@
           "group_by": false,
           "label": "Function",
           "name": "Function",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Notes",
+          "name": "Notes",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
           "show": false
         }
       ],

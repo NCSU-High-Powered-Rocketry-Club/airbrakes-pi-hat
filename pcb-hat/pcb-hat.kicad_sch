@@ -7884,7 +7884,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "LTST-C194TBKT"
+		(property "Digikey PN" "160-1837-1-ND"
 			(at 80.01 67.31 0)
 			(effects
 				(font
@@ -8085,7 +8085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A106MA8NRNC_Spec.pdf"
 			(at 99.06 29.21 0)
 			(effects
 				(font
@@ -8095,6 +8095,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 99.06 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1869-1-ND"
 			(at 99.06 29.21 0)
 			(effects
 				(font
@@ -8287,7 +8296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1007_X8R_ULTRA_150C_SMD"
 			(at 214.63 33.02 0)
 			(effects
 				(font
@@ -8297,6 +8306,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "399-C0603C120K4HACTUCT-ND"
 			(at 214.63 33.02 0)
 			(effects
 				(font
@@ -8635,7 +8653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 236.22 33.02 0)
 			(effects
 				(font
@@ -8644,7 +8662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31A226KAHNNNE_Spec.pdf"
 			(at 236.22 33.02 0)
 			(effects
 				(font
@@ -8654,6 +8672,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-3047-1-ND"
 			(at 236.22 33.02 0)
 			(effects
 				(font
@@ -9065,7 +9092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 149.86 36.83 0)
 			(effects
 				(font
@@ -9075,6 +9102,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0603FT30K1CT-ND"
 			(at 149.86 36.83 0)
 			(effects
 				(font
@@ -9115,7 +9151,7 @@
 				)
 			)
 		)
-		(property "Value" "346k"
+		(property "Value" "348k"
 			(at 255.27 33.528 90)
 			(effects
 				(font
@@ -9132,7 +9168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 255.27 35.56 0)
 			(effects
 				(font
@@ -9150,7 +9186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "RT0603DRE07234KL"
+		(property "Digikey PN" "311-348KHRCT-ND"
 			(at 255.27 35.56 90)
 			(effects
 				(font
@@ -10646,7 +10682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 138.43 57.15 0)
 			(effects
 				(font
@@ -10664,7 +10700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "ERJ-PA3J202V"
+		(property "Digikey PN" "RMCF0603FT1K00CT-ND"
 			(at 138.43 57.15 90)
 			(effects
 				(font
@@ -10715,7 +10751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 160.02 30.48 0)
 			(effects
 				(font
@@ -10724,7 +10760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31A226KAHNNNE_Spec.pdf"
 			(at 160.02 30.48 0)
 			(effects
 				(font
@@ -10734,6 +10770,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 160.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-3047-1-ND"
 			(at 160.02 30.48 0)
 			(effects
 				(font
@@ -11074,7 +11119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 255.27 16.51 0)
 			(effects
 				(font
@@ -11092,7 +11137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "CRCW0603160KFKEA"
+		(property "Digikey PN" "311-196KHRCT-ND"
 			(at 255.27 16.51 90)
 			(effects
 				(font
@@ -11814,7 +11859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 163.83 30.48 0)
 			(effects
 				(font
@@ -11823,7 +11868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31A226KAHNNNE_Spec.pdf"
 			(at 163.83 30.48 0)
 			(effects
 				(font
@@ -11926,7 +11971,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "LTST-C190KSKT"
+		(property "Digikey PN" "160-1437-1-ND"
 			(at 143.51 57.15 0)
 			(effects
 				(font
@@ -12250,7 +12295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 114.3 69.85 0)
 			(effects
 				(font
@@ -12269,6 +12314,15 @@
 			)
 		)
 		(property "Notes" "1% tol"
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
 			(at 114.3 69.85 0)
 			(effects
 				(font
@@ -12440,7 +12494,7 @@
 				)
 			)
 		)
-		(property "Value" "403k"
+		(property "Value" "402k"
 			(at 255.27 40.132 90)
 			(effects
 				(font
@@ -12475,7 +12529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "RC0603FR-07261KL"
+		(property "Digikey PN" "311-402KHRCT-ND"
 			(at 255.27 41.91 90)
 			(effects
 				(font
@@ -12533,7 +12587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 255.27 48.26 0)
 			(effects
 				(font
@@ -12551,7 +12605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "RR0816P-2843-D-E00"
+		(property "Digikey PN" "13-RT0603BRD07459KLCT-ND"
 			(at 255.27 48.26 90)
 			(effects
 				(font
@@ -12609,7 +12663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -12620,6 +12674,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "ERJ-PA3J202V"
+			(at 138.43 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13132,7 +13195,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "LTST-C190GKT"
+		(property "Digikey PN" "160-LTST-C190GKTCT-ND"
 			(at 35.56 69.85 0)
 			(effects
 				(font
@@ -13347,7 +13410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A106MA8NRNC_Spec.pdhttps://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A106MA8NRNC_Spec.pdf"
 			(at 171.45 31.75 0)
 			(effects
 				(font
@@ -13366,6 +13429,15 @@
 			)
 		)
 		(property "Note" "Make sure to get current rating of 3A"
+			(at 171.45 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1869-1-ND"
 			(at 171.45 31.75 0)
 			(effects
 				(font
@@ -13416,7 +13488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 232.41 33.02 0)
 			(effects
 				(font
@@ -13425,7 +13497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31A226KAHNNNE_Spec.pdf"
 			(at 232.41 33.02 0)
 			(effects
 				(font
@@ -13435,6 +13507,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 232.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-3047-1-ND"
 			(at 232.41 33.02 0)
 			(effects
 				(font
@@ -13715,7 +13796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28548/vjw1bcbascomseries.pdf"
 			(at 142.24 30.48 0)
 			(effects
 				(font
@@ -13725,6 +13806,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "720-VJ0603A470JXXPW1BCCT-ND"
 			(at 142.24 30.48 0)
 			(effects
 				(font
@@ -13984,7 +14074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 218.44 39.37 0)
 			(effects
 				(font
@@ -13994,6 +14084,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 218.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0603FT30K1CT-ND"
 			(at 218.44 39.37 0)
 			(effects
 				(font
@@ -14861,7 +14960,7 @@
 				)
 			)
 		)
-		(property "Value" "290k"
+		(property "Value" "291k"
 			(at 255.27 26.924 90)
 			(effects
 				(font
@@ -14878,7 +14977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
 			(at 255.27 29.21 0)
 			(effects
 				(font
@@ -14896,7 +14995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "CRCW0603210KFKEA"
+		(property "Digikey PN" "2019-RN73R1JTTD2913F100CT-ND"
 			(at 255.27 29.21 90)
 			(effects
 				(font
@@ -15349,7 +15448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 107.95 67.31 0)
 			(effects
 				(font
@@ -15368,6 +15467,15 @@
 			)
 		)
 		(property "Notes" "1% tol"
+			(at 107.95 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0603FT9K10CT-ND"
 			(at 107.95 67.31 90)
 			(effects
 				(font
@@ -15418,7 +15526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 228.6 33.02 0)
 			(effects
 				(font
@@ -15427,7 +15535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31A226KAHNNNE_Spec.pdf"
 			(at 228.6 33.02 0)
 			(effects
 				(font
@@ -15437,6 +15545,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-3047-1-ND"
 			(at 228.6 33.02 0)
 			(effects
 				(font
@@ -15835,7 +15952,7 @@
 				)
 			)
 		)
-		(property "Digikey PN" "LS Q976.01-N1Q2-1-20-R18"
+		(property "Digikey PN" "475-LSQ976.01-N1Q2-1-20-R18CT-ND"
 			(at 35.56 60.96 0)
 			(effects
 				(font
@@ -15904,7 +16021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 149.86 30.48 0)
 			(effects
 				(font
@@ -15914,6 +16031,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 149.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "541-162KHCT-ND"
 			(at 149.86 30.48 0)
 			(effects
 				(font
@@ -16019,7 +16145,7 @@
 				)
 			)
 		)
-		(property "Value" "233k"
+		(property "Value" "232k"
 			(at 255.27 20.574 90)
 			(effects
 				(font
@@ -16036,7 +16162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 255.27 22.86 0)
 			(effects
 				(font
@@ -16054,7 +16180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "RN73R1JTTD1840B25"
+		(property "Digikey PN" "118-CR0603-FX-2323ELFCT-ND"
 			(at 255.27 22.86 90)
 			(effects
 				(font
