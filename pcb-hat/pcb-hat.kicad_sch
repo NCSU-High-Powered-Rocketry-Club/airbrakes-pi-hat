@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Airbender")
-		(date "2026-01-11")
-		(rev "0.2")
+		(date "2026-03-12")
+		(rev "0.3")
 		(comment 1 "Made by Harshil M, Seth O")
-		(comment 2 "Rating: 20V, 3A")
+		(comment 2 "Rating: 20V, 10A")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA180A1"
@@ -3874,7 +3874,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q1"
+			(property "Reference" "Q4"
 				(at 8.89 0 90)
 				(effects
 					(font
@@ -3890,7 +3890,7 @@
 					)
 				)
 			)
-			(property "Footprint" "pcb_hat:DMP1022UFDEQ7"
+			(property "Footprint" "pcb_hat:PJQ4465APAU_R2_000A1"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -4189,6 +4189,841 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_PMOS_GSD_2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q6"
+				(at 8.89 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Q_PMOS_GSD"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "pcb_hat:PJQ4465APAU_R2_000A1"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJQ4437EP-AU.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey PN" "3757-PJQ4437EP-AU_R2_002A1CT-ND"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_PMOS_GSD_2_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_2_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Q_PMOS_GSD_3"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Q_PMOS_GSD"
+				(at 6.35 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "pcb_hat:PJQ4465APAU_R2_000A1"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJQ4437EP-AU.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey PN" "3757-PJQ4437EP-AU_R2_002A1CT-ND"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_PMOS_GSD_3_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_3_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6208,12 +7043,6 @@
 		(uuid "f3d8110c-3de8-4181-a4a7-243023ffd622")
 	)
 	(junction
-		(at 173.99 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ba1befc-30c1-4ff4-94ed-41ad9d9ec7c3")
-	)
-	(junction
 		(at 226.06 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6284,12 +7113,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33f4d906-28b3-4f71-8cf3-ac9399447a1c")
-	)
-	(junction
-		(at 160.02 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34bebbbf-2f01-4e59-a6fe-8e7b8de669f7")
 	)
 	(junction
 		(at 62.23 30.48)
@@ -6382,6 +7205,12 @@
 		(uuid "701843cd-4926-42b0-8ef1-36985b5a9957")
 	)
 	(junction
+		(at 160.02 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8665fa65-142e-4e30-b0e3-0ab936c3456e")
+	)
+	(junction
 		(at 105.41 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6470,6 +7299,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b76d1eaf-67d1-464c-957a-a7dcd7796a8e")
+	)
+	(junction
+		(at 157.48 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5b45bf0-25c9-42b8-a265-1489560b6ddd")
 	)
 	(junction
 		(at 226.06 36.83)
@@ -6621,6 +7456,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 27.94) (xy 160.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b300c7-e4d4-44ee-817c-61467f46fa89")
+	)
+	(wire
+		(pts
 			(xy 160.02 27.94) (xy 163.83 27.94)
 		)
 		(stroke
@@ -6718,16 +7563,6 @@
 			(type default)
 		)
 		(uuid "15f58d22-7901-44cb-b21e-800f627cba51")
-	)
-	(wire
-		(pts
-			(xy 173.99 36.83) (xy 173.99 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18ac8c98-9e76-45b1-aca1-d45fb8241012")
 	)
 	(wire
 		(pts
@@ -7021,16 +7856,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 36.83) (xy 179.07 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b149fc-2843-4d7f-85fa-882059d83770")
-	)
-	(wire
-		(pts
 			(xy 198.12 26.67) (xy 209.55 26.67)
 		)
 		(stroke
@@ -7038,6 +7863,16 @@
 			(type default)
 		)
 		(uuid "477f665b-835a-4c10-b057-5cfb277674bd")
+	)
+	(wire
+		(pts
+			(xy 163.83 34.29) (xy 163.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48aac18e-3e09-42cf-be64-84f2da61def5")
 	)
 	(wire
 		(pts
@@ -7302,6 +8137,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 34.29) (xy 160.02 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2eded0-17f8-430b-a589-801e593b5bcd")
+	)
+	(wire
+		(pts
 			(xy 104.14 67.31) (xy 107.95 67.31)
 		)
 		(stroke
@@ -7342,7 +8187,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 40.64) (xy 160.02 33.02)
+			(xy 160.02 40.64) (xy 160.02 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7362,7 +8207,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 27.94) (xy 160.02 27.94)
+			(xy 152.4 27.94) (xy 157.48 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7532,7 +8377,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 26.67) (xy 173.99 26.67)
+			(xy 168.91 26.67) (xy 179.07 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7852,16 +8697,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 26.67) (xy 179.07 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba9856a4-5d48-4cbc-9ad7-84ea033ed60a")
-	)
-	(wire
-		(pts
 			(xy 168.91 55.88) (xy 180.34 55.88)
 		)
 		(stroke
@@ -8012,7 +8847,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 33.02) (xy 163.83 33.02)
+			(xy 160.02 34.29) (xy 163.83 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8039,6 +8874,16 @@
 			(type default)
 		)
 		(uuid "cc1ba177-6462-4702-913f-a5f832993713")
+	)
+	(wire
+		(pts
+			(xy 157.48 34.29) (xy 157.48 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd64d7e2-5c8d-47dd-a487-1e6c0136ad3b")
 	)
 	(wire
 		(pts
@@ -8399,16 +9244,6 @@
 			(type default)
 		)
 		(uuid "f80859bf-bc1a-4a79-9241-a3440e89b1f2")
-	)
-	(wire
-		(pts
-			(xy 173.99 27.94) (xy 173.99 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbaf13b4-5467-4657-bc8c-4856d5827f4e")
 	)
 	(wire
 		(pts
@@ -8844,6 +9679,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 156.21 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 156.21 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 156.21 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3c27c8b-119e-4673-a562-f6f860f07a8a")
 		)
@@ -9077,6 +9939,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 80.01 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 80.01 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 80.01 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5ea6c3d3-309a-42f1-92c8-1ae2efebc885")
 		)
@@ -9287,6 +10176,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 99.06 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 99.06 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 99.06 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7157caa-c984-4694-9383-5d911ce42e8f")
 		)
@@ -9346,6 +10262,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 22.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 22.86 33.02 0)
 			(effects
 				(font
@@ -9536,7 +10479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/UMK107AB7105KA-T_SS.pdf"
 			(at 113.03 158.75 0)
 			(effects
 				(font
@@ -9546,6 +10489,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "587-3247-1-ND"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 113.03 158.75 0)
 			(effects
 				(font
@@ -9579,7 +10558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "111d49a3-42e0-4aee-a085-c41a9012c202")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 151.13 158.75 0)
 			(effects
 				(font
@@ -9629,7 +10608,7 @@
 		(instances
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9831,6 +10810,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "820bf93e-0bff-4fe8-beba-02f1ce2afeae")
 		)
@@ -9978,6 +10984,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 163.83 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "215e0899-ea98-496a-96f7-e01c5483c5d1")
+		(property "Reference" "C8"
+			(at 160.528 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 159.766 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/TMK316BBJ226ML-T_SS.pdf"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "587-3246-1-ND"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "472cdbd8-680d-4283-b075-a70057121e60")
+		)
+		(pin "2"
+			(uuid "346f9410-542c-4319-8baa-d4ad928a17f7")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 270.51 38.1 0)
 		(unit 1)
@@ -10036,6 +11147,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Inductance" ""
+			(at 270.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 270.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 270.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10108,6 +11246,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 147.32 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 147.32 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 147.32 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "43dcedba-9fea-4508-920c-43c69cef2d81")
 		)
@@ -10138,7 +11303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a572f81-b49a-447e-bdaa-d6bbb1743ec8")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 120.65 74.93 0)
 			(effects
 				(font
@@ -10188,7 +11353,7 @@
 		(instances
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10258,6 +11423,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "420cdd4a-5d79-41eb-9314-ae76bd05a698")
 		)
@@ -10307,7 +11499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 260.35 38.1 0)
 			(effects
 				(font
@@ -10325,7 +11517,34 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-348KHRCT-ND"
+		(property "Digikey PN" "10-ERA-3AEB6981VCT-ND"
+			(at 260.35 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 260.35 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 260.35 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 260.35 38.1 90)
 			(effects
 				(font
@@ -10344,84 +11563,6 @@
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 173.99 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3324dccd-701c-4785-9c28-fa8856b63972")
-		(property "Reference" "C9"
-			(at 169.672 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 169.672 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 173.99 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A106MA8NRNC_Spec.pdf"
-			(at 173.99 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 173.99 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey PN" "1276-1869-1-ND"
-			(at 173.99 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23ee09c9-89fc-4975-9954-39349ee62988")
-		)
-		(pin "2"
-			(uuid "e1cd36b4-3f46-47bd-8eb1-5726a0730099")
-		)
-		(instances
-			(project "pcb-hat"
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10481,6 +11622,33 @@
 			)
 		)
 		(property "Digikey PN" "SS3P4-M3/84AGICT-ND"
+			(at 96.52 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 96.52 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 96.52 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 96.52 22.86 0)
 			(effects
 				(font
@@ -10651,7 +11819,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "4k7"
 			(at 31.75 151.13 90)
 			(effects
 				(font
@@ -10695,6 +11863,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 31.75 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 31.75 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 31.75 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f2a84fc-6954-4e2d-b052-c665a4c01fe1")
 		)
@@ -10719,7 +11914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38aa38a7-a98b-4f3a-933f-2ea4a6c6dce0")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 217.932 42.926 0)
 			(effects
 				(font
@@ -10746,7 +11941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 			(at 223.52 44.45 0)
 			(effects
 				(font
@@ -10764,6 +11959,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "399-C0603C101J5GACTUCT-ND"
+			(at 223.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 223.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 223.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 223.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5f0a5919-288e-41de-9b96-682eab4c109b")
 		)
@@ -10773,7 +12004,7 @@
 		(instances
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10835,6 +12066,33 @@
 			)
 		)
 		(property "Digikey PN" "5399-TL431CT-ND"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 107.95 59.69 0)
 			(effects
 				(font
@@ -10924,6 +12182,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 118.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 118.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 118.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64f84bbf-415c-456f-acb5-9368a8b0fbc6")
 		)
@@ -10952,7 +12237,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Q_PMOS_GSD_1")
+		(lib_name "Q_PMOS_GSD_2")
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 193.04 29.21 270)
 		(mirror x)
@@ -11014,6 +12299,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 193.04 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 193.04 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 193.04 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cf24ade-424c-4532-a850-83529b00077c")
 		)
@@ -11037,6 +12349,9 @@
 		)
 		(pin "8"
 			(uuid "71fe6ce9-2fa2-470c-be63-e8d3e3731051")
+		)
+		(pin "9"
+			(uuid "ee693d91-c7d3-4daa-b597-e341d3c95dff")
 		)
 		(instances
 			(project "pcb-hat"
@@ -11093,6 +12408,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 242.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 242.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 242.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 242.57 127 0)
 			(effects
 				(font
@@ -11365,6 +12707,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 74.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 74.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 74.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea998236-67a4-445c-bd1a-d331a2e3ed5e")
 		)
@@ -11381,6 +12750,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4279d67a-33e5-4df3-8ae0-ce9c5dd4b4d0")
+		(property "Reference" "C12"
+			(at 231.394 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 231.394 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/TMK316BBJ226ML-T_SS.pdf"
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "587-3246-1-ND"
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1781133-b719-4bc6-849e-6ab3e6436bef")
+		)
+		(pin "2"
+			(uuid "be056795-cc00-4c4b-b17b-6010a6498181")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 134.62 71.12 180)
 		(unit 1)
@@ -11389,7 +12863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42c5fd59-2c8e-4f7a-b1e6-8b154806595d")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 134.62 68.58 0)
 			(effects
 				(font
@@ -11459,6 +12933,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20ede480-8910-46db-b4ee-4a8ce77a297d")
 		)
@@ -11468,7 +12969,7 @@
 		(instances
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -11535,6 +13036,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Inductance" ""
+			(at 43.18 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 43.18 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 43.18 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -11813,6 +13341,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50fef007-340a-482d-a381-8e91b42aa211")
 		)
@@ -12059,7 +13614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 102.87 138.43 0)
 			(effects
 				(font
@@ -12077,6 +13632,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "RMCF0603FT1K00CT-ND"
+			(at 102.87 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 102.87 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 102.87 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 102.87 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b94f8e59-e05b-47fc-b565-3110354ec69a")
 		)
@@ -12087,6 +13678,111 @@
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 157.48 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50d31135-ec23-4bc0-81fc-27fc3dd83aaa")
+		(property "Reference" "C7"
+			(at 153.924 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 153.67 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/TMK316BBJ226ML-T_SS.pdf"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "587-3246-1-ND"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a99a302c-fa2a-4d00-b0c5-3350790eaf27")
+		)
+		(pin "2"
+			(uuid "e26b89ea-ee00-40c2-9bd3-78c6495ea912")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12153,6 +13849,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 130.81 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 130.81 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 130.81 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "841b17f2-f715-47d5-9598-cbb14e11f86b")
 		)
@@ -12163,84 +13886,6 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 160.02 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53cc3892-1a78-4690-b55b-fdf4b8d9e028")
-		(property "Reference" "C7"
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 154.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 160.02 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31A226KAHNNNE_Spec.pdf"
-			(at 160.02 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 160.02 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey PN" "1276-3047-1-ND"
-			(at 160.02 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c4aff5c-8fa5-4ef9-b32a-9434352cc1ab")
-		)
-		(pin "2"
-			(uuid "15e29d84-df4f-4437-82de-e779c80b0c5e")
-		)
-		(instances
-			(project ""
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12365,6 +14010,33 @@
 			)
 		)
 		(property "Digikey PN" "311-8.2KGRCT-ND"
+			(at 57.15 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 57.15 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 57.15 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 57.15 67.31 90)
 			(effects
 				(font
@@ -12514,6 +14186,33 @@
 				)
 			)
 		)
+		(property "Inductance" ""
+			(at 270.51 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 270.51 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 270.51 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f92a713f-9cf3-4afd-957e-4fcf7324d259")
 		)
@@ -12539,7 +14238,7 @@
 		(dnp no)
 		(uuid "59674e34-0ca4-4fce-892d-48d597378473")
 		(property "Reference" "R20"
-			(at 257.556 16.764 90)
+			(at 260.35 15.24 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12547,7 +14246,7 @@
 			)
 		)
 		(property "Value" "13k"
-			(at 263.144 16.764 90)
+			(at 260.35 17.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12563,7 +14262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73H.pdf"
 			(at 260.35 19.05 0)
 			(effects
 				(font
@@ -12581,7 +14280,34 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-196KHRCT-ND"
+		(property "Digikey PN" "2019-RK73H1JTTD1302FCT-ND"
+			(at 260.35 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 260.35 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 260.35 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 260.35 19.05 90)
 			(effects
 				(font
@@ -12734,6 +14460,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 19.05 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 19.05 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 19.05 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e754ccf2-597f-4bad-acfb-59f42fcdbeed")
 		)
@@ -12844,6 +14597,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 153.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 153.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 153.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4adcafed-9240-4cff-b069-209299e403e0")
 		)
@@ -12913,6 +14693,33 @@
 			)
 		)
 		(property "Digikey PN" "P19775CT-ND"
+			(at 138.43 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 138.43 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 138.43 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 138.43 27.94 90)
 			(effects
 				(font
@@ -13168,7 +14975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -13178,6 +14985,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "P49.9KDBCT-ND"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -13395,6 +15238,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7f9e6104-b97b-439f-9106-6199c74ee1d7")
 		)
@@ -13411,75 +15281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 163.83 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b33e167-eff0-41d3-af8b-37a0408a563e")
-		(property "Reference" "C8"
-			(at 162.052 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 162.306 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 163.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL31A226KAHNNNE_Spec.pdf"
-			(at 163.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c4aff5c-8fa5-4ef9-b32a-9434352cc1ac")
-		)
-		(pin "2"
-			(uuid "15e29d84-df4f-4437-82de-e779c80b0c5f")
-		)
-		(instances
-			(project ""
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 135.89 58.42 180)
 		(unit 1)
@@ -13488,7 +15289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b9c63bc-ce10-4a8f-a252-57c37db60cfb")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 135.89 56.134 0)
 			(effects
 				(font
@@ -13558,6 +15359,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b9f65ef-fd75-414f-818d-ab807dda1ab3")
 		)
@@ -13567,7 +15395,7 @@
 		(instances
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -13827,6 +15655,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-35277-1-ND"
+			(at 198.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 198.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 198.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 198.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "81de2028-9889-4a26-b84c-38e1237b64fe")
 		)
@@ -13921,6 +15785,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 218.44 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 218.44 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 218.44 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce806b8d-aab0-4b85-87a8-b069039cdfe6")
 		)
@@ -13931,6 +15822,111 @@
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 184.15 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7071a62e-e22e-4f14-b31c-749239fa5d3b")
+		(property "Reference" "C10"
+			(at 184.404 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 184.404 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/TMK316BBJ226ML-T_SS.pdf"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "587-3246-1-ND"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45575d4e-ebaf-4806-99b4-ec2fc74262e0")
+		)
+		(pin "2"
+			(uuid "eb243343-c853-43c2-8627-a3ee8385ba27")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -14000,6 +15996,33 @@
 			)
 		)
 		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 107.95 69.85 0)
 			(effects
 				(font
@@ -14084,75 +16107,6 @@
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 184.15 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ac1ad24-e63c-47a8-9f60-bfe5f57dea8f")
-		(property "Reference" "C11"
-			(at 184.658 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 184.658 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 184.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 184.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4529399f-f77c-43a0-a32d-71a03ca9a923")
-		)
-		(pin "2"
-			(uuid "621cf425-9b77-43bd-a48c-da3f2042cead")
-		)
-		(instances
-			(project ""
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -14257,7 +16211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 260.35 44.45 0)
 			(effects
 				(font
@@ -14275,7 +16229,34 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-402KHRCT-ND"
+		(property "Digikey PN" "311-6.04KHRCT-ND"
+			(at 260.35 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 260.35 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 260.35 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 260.35 44.45 90)
 			(effects
 				(font
@@ -14333,7 +16314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 260.35 50.8 0)
 			(effects
 				(font
@@ -14351,7 +16332,34 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "13-RT0603BRD07459KLCT-ND"
+		(property "Digikey PN" "311-5.23KHRCT-ND"
+			(at 260.35 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 260.35 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 260.35 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 260.35 50.8 90)
 			(effects
 				(font
@@ -14436,6 +16444,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 128.27 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 128.27 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 128.27 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c70cf847-b688-42a7-bab1-d911155ef003")
 		)
@@ -14506,6 +16541,33 @@
 			)
 		)
 		(property "Digikey PN" "MMBT2222A-TP"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 151.13 66.04 0)
 			(effects
 				(font
@@ -14660,6 +16722,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dfcc4494-5e70-4b2f-93af-e2d744680e92")
 		)
@@ -14741,6 +16830,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 209.55 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 209.55 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 209.55 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec5e177a-4300-4899-bcf8-83a76eaad753")
 		)
@@ -14812,6 +16928,33 @@
 			)
 		)
 		(property "Digikey PN" "C0603C104K3RACTU"
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 69.85 96.52 0)
 			(effects
 				(font
@@ -14975,7 +17118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92140e0c-bab0-4e15-8a27-ed96dde83bf1")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 120.65 102.87 0)
 			(effects
 				(font
@@ -15025,7 +17168,7 @@
 		(instances
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15084,6 +17227,33 @@
 			)
 		)
 		(property "Digikey PN" "296-47652-1-ND"
+			(at 102.87 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 102.87 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 102.87 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 102.87 148.59 90)
 			(effects
 				(font
@@ -15269,6 +17439,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30dc48ab-6b27-456a-b344-f8ca00663d62")
 		)
@@ -15345,6 +17542,33 @@
 				)
 			)
 		)
+		(property "Inductance" ""
+			(at 270.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 270.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 270.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ffd66c0-87fd-4283-ac36-8b1247981e8c")
 		)
@@ -15361,7 +17585,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Q_PMOS_GSD_1")
+		(lib_name "Q_PMOS_GSD_3")
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 53.34 33.02 90)
 		(unit 1)
@@ -15422,6 +17646,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 53.34 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 53.34 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 53.34 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69c1f255-d42f-4653-bd97-4d96216445c0")
 		)
@@ -15445,6 +17696,9 @@
 		)
 		(pin "8"
 			(uuid "cc501cbb-44d3-4537-b8ef-ea3dfe8f78f8")
+		)
+		(pin "9"
+			(uuid "a4f454fd-471d-40a0-bf3c-decce2ea486c")
 		)
 		(instances
 			(project ""
@@ -15582,6 +17836,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 96.52 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 96.52 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 96.52 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8951ec20-b882-4835-9bd4-f7aca59e1801")
 		)
@@ -15652,6 +17933,33 @@
 			)
 		)
 		(property "Digikey PN" "720-VJ0603A470JXXPW1BCCT-ND"
+			(at 142.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 142.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 142.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 142.24 30.48 0)
 			(effects
 				(font
@@ -15870,6 +18178,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 107.95 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 107.95 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 107.95 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78bd27f7-6133-4974-9930-65cb52c5995e")
 		)
@@ -15893,6 +18228,9 @@
 		)
 		(pin "8"
 			(uuid "637cfd57-28a5-4448-93f9-25d02b09cfb0")
+		)
+		(pin "9"
+			(uuid "9c325976-f34f-4620-b21d-92d6b662ce7e")
 		)
 		(instances
 			(project "pcb-hat"
@@ -16022,6 +18360,33 @@
 			)
 		)
 		(property "Digikey PN" "ERJ-PA3J202V"
+			(at 22.86 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 22.86 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 22.86 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 22.86 64.77 90)
 			(effects
 				(font
@@ -16252,7 +18617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8615409-3b1d-4bfc-ab67-47d0b56d1141")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 243.84 32.4738 0)
 			(effects
 				(font
@@ -16306,6 +18671,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b8919873-29c2-4a71-a0bc-0197752f6a41")
 		)
@@ -16315,7 +18707,7 @@
 		(instances
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -16388,6 +18780,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be06322e-47b5-4634-9568-824e920534a4")
+		(property "Reference" "C9"
+			(at 174.244 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 174.244 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/TMK316BBJ226ML-T_SS.pdf"
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "587-3246-1-ND"
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f726562-83bf-4db4-9f5f-246112e61b44")
+		)
+		(pin "2"
+			(uuid "9eeba0dc-4443-48b5-8a9b-f2dde2fbcf14")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NPN")
 		(at 67.31 67.31 0)
 		(unit 1)
@@ -16442,6 +18939,33 @@
 			)
 		)
 		(property "Digikey PN" "MMBT2222A-TP"
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 67.31 67.31 0)
 			(effects
 				(font
@@ -16701,7 +19225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 130.81 24.13 0)
 			(effects
 				(font
@@ -16711,6 +19235,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "C0603C104K3RACTU"
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 130.81 24.13 0)
 			(effects
 				(font
@@ -16768,7 +19328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 106.68 156.21 0)
 			(effects
 				(font
@@ -16779,6 +19339,42 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 106.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 106.68 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 106.68 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 106.68 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 106.68 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17124,6 +19720,33 @@
 				)
 			)
 		)
+		(property "Inductance" ""
+			(at 270.51 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 270.51 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 270.51 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "42999ef1-471f-4aae-8c17-e42572cc603e")
 		)
@@ -17238,7 +19861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 260.35 31.75 0)
 			(effects
 				(font
@@ -17256,7 +19879,34 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "2019-RN73R1JTTD2913F100CT-ND"
+		(property "Digikey PN" "311-8.45KHRCT-ND"
+			(at 260.35 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 260.35 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 260.35 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 260.35 31.75 90)
 			(effects
 				(font
@@ -17325,6 +19975,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 31.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 31.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 31.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 31.75 133.35 0)
 			(effects
 				(font
@@ -17475,6 +20152,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Inductance" ""
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 29.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17637,6 +20341,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bca28e0-b878-436b-9935-3fd0efb47b44")
 		)
@@ -17714,6 +20445,33 @@
 			)
 		)
 		(property "Digikey PN" "RMCF0603FT9K10CT-ND"
+			(at 101.6 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 101.6 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 101.6 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 101.6 67.31 90)
 			(effects
 				(font
@@ -17838,7 +20596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 113.03 102.87 0)
 			(effects
 				(font
@@ -17848,6 +20606,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 113.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 113.03 102.87 0)
 			(effects
 				(font
@@ -18064,6 +20858,33 @@
 				)
 			)
 		)
+		(property "Inductance" ""
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ffd66c0-87fd-4283-ac36-8b1247981e8e")
 		)
@@ -18088,7 +20909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebe0b543-73c7-45a0-bf95-02a8e68aa561")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -18138,76 +20959,7 @@
 		(instances
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 179.07 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eccea259-838c-40a8-8a42-96408227f18d")
-		(property "Reference" "C10"
-			(at 177.8 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 180.34 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 179.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 179.07 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d32569b6-6363-45c9-b253-f3b2f64910ef")
-		)
-		(pin "1"
-			(uuid "3135463a-c251-4a80-9d8d-21ffe573e134")
-		)
-		(instances
-			(project ""
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "C10")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -18277,6 +21029,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "5a0c8202-d003-4346-8121-d8ad07d8e67b")
 		)
@@ -18305,75 +21084,6 @@
 			(project ""
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 236.22 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0521436-3ed4-4124-9978-48b817f5f988")
-		(property "Reference" "C13"
-			(at 231.902 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 231.902 36.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 236.22 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 236.22 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12a7e515-853f-4ff8-b583-18897239ff12")
-		)
-		(pin "1"
-			(uuid "ee67a6fd-44b4-4c5e-8b1f-1eaaa7b5eb3c")
-		)
-		(instances
-			(project ""
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -18467,6 +21177,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e365838-f55b-4ee6-823f-e66f616456bc")
 		)
@@ -18537,6 +21274,33 @@
 			)
 		)
 		(property "Digikey PN" "541-162KHCT-ND"
+			(at 149.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 149.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 149.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 149.86 30.48 0)
 			(effects
 				(font
@@ -18659,7 +21423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 260.35 25.4 0)
 			(effects
 				(font
@@ -18677,7 +21441,34 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "118-CR0603-FX-2323ELFCT-ND"
+		(property "Digikey PN" "311-10.7KHRCT-ND"
+			(at 260.35 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 260.35 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 260.35 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 260.35 25.4 90)
 			(effects
 				(font
@@ -18847,6 +21638,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inductance" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
 			(at 161.29 60.96 0)
 			(effects
 				(font
@@ -19065,6 +21883,33 @@
 				(hide yes)
 			)
 		)
+		(property "Inductance" ""
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd891670-e22a-47fa-b2d2-62ac5a46d5c0")
 		)
@@ -19139,6 +21984,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Inductance" ""
+			(at 270.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 270.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 270.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
