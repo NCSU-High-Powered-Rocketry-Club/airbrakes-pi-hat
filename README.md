@@ -11,15 +11,15 @@ airbrakes (see the [airbrakes repository](https://github.com/NCSU-High-Powered-R
 
 ## Features
 
-- Supports from 7V to 18V input voltage
-- Variable output voltage for the servo power rail (7V to 14V), while simultaneously powering the Pi at 5V
-- Current and voltage sensing for both the servo power rail and overall input power rail
-- Reverse polarity protection on the input power rail
-- LEDs for power and status indication
+- Supports from 7V to 20V input voltage, with a maximum amperage of 10A.
+- Variable output voltage for the servo power rail (6V to 13V), while simultaneously powering the Pi at 5V.
+- Current and voltage sensing for the entire board, which allows measurement of servo load transients.
+- Reverse polarity detection and protection on the input power rail
+- Reverse polarity detection and protection for the servo cable. Plugging in the cable backwards now will not fry the Raspberry Pi.
+- 7 LEDs for monitoring and detecting the health of the board and its interface with the Raspberry Pi.
 - Solder jumper pad to select using a servo via PWM or communicate with the servo via UART
-- MOSFET to disable power to the servo rail when not in use
+- P-MOSFET to disable power to the servo rail when not in use
 - Software controlled buzzer for audible alerts
-- Resettable fuse to protect against long servo stalls
 
 The repository includes schematic symbols, PCB footprints, 3D models, and all board files necessary to review, edit and manufacture the module.
 
@@ -49,8 +49,8 @@ First, install KiCad from [kicad.org](https://kicad.org/download/). We recommend
 
 Root-level description (key files/folders):
 
-- `milled/` — folder containing CNC milling files for in-house fabrication at the ECE Makerspace
-- `pcb-hat/` — folder which contains the project files for the SMD version of the Pi hat
+- `milled_ab_pi_hat/` — folder containing CNC milling files for in-house fabrication at the ECE Makerspace
+- `pcb-hat/` — folder which contains the project files for the SMD version of the Pi hat (This is what we order from JLCPCB!)
 - `pcb-hat.kicad_sch` — schematic
 - `pcb-hat.kicad_pcb` — PCB layout
 - `pcb-hat.kicad_pro` — KiCad project file that links schematics, board and library tables
