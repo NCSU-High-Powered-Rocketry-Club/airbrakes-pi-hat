@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.15,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -61,14 +77,6 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "items_not_allowed|137833000|65871000|c1bff5d4-1a3f-461e-bd22-ec2ad50e4931|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|143167000|75371000|d8c811d7-5d47-4969-aca3-559eab25f0a0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
         [
           "lib_footprint_mismatch|115330000|65050000|afe33a7a-47a4-42d7-8436-443c3a00a669|00000000-0000-0000-0000-000000000000",
           ""
@@ -95,34 +103,6 @@
         ],
         [
           "missing_courtyard|141301461|96872164|10e71c98-bfc9-4947-a5e9-7eaecb2344e4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|127309782|87870000|374cbe3b-809d-49be-b01d-89183562d503|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|131526709|112749552|c818641a-fda5-4fbf-bc3b-1a0327841bdd|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|131930000|106569782|46e30db2-2927-43b0-928f-d15e843e8410|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|131995860|111377370|e3b1ebd6-408c-4287-acfe-09fd3f221edd|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|139140000|78059782|d4bc12fd-e33c-486c-b2db-4c2142b5e974|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|145862000|100950000|99dab1a6-9a66-4270-a3b8-98e0176e08f3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|146061071|101476153|40072d9b-ba4c-4bbf-8ec2-3222c835ac9c|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -939,7 +919,7 @@
         "uuid": "a3c2d30d-0751-4de7-a899-3d89ad40795d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR58-59,C14",
     "variants": []
   },
   "sheets": [

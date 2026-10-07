@@ -10,6 +10,8 @@
 		(rev "0.3")
 		(comment 1 "Made by Harshil M, Seth O")
 		(comment 2 "Rating: 20V, 10A")
+		(comment 3 "through software before using as UART pins")
+		(comment 4 "Note about CAM_TX/CAM_RX: GPIO8 and GPIO9 will need to be exposed ")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA180A1"
@@ -7199,6 +7201,18 @@
 		(uuid "9f8586ff-b683-4acb-890e-0f7dbe576a87")
 	)
 	(rectangle
+		(start 165.1 86.36)
+		(end 200.66 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b9771bb6-651a-4617-921f-f71f2432e4ae")
+	)
+	(rectangle
 		(start 86.36 12.7)
 		(end 166.37 50.8)
 		(stroke
@@ -7498,6 +7512,16 @@
 		)
 		(uuid "d028e622-3f56-4d13-bae9-6e66802cbcf8")
 	)
+	(text "Potential Cam Transmitter Power"
+		(exclude_from_sim no)
+		(at 181.61 88.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db0aa7a4-6f2d-487c-871d-65ab6df1f5ac")
+	)
 	(text "Servo Backwards"
 		(exclude_from_sim no)
 		(at 153.67 53.848 0)
@@ -7695,6 +7719,12 @@
 		(uuid "868c185a-e5e2-438a-a81d-3b4a17f09963")
 	)
 	(junction
+		(at 176.53 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88495efb-d696-4e7d-89ce-189ca3401da1")
+	)
+	(junction
 		(at 41.91 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7837,10 +7867,6 @@
 		(uuid "063ac7e6-6c2f-4b80-a13f-7fce19af1816")
 	)
 	(no_connect
-		(at 217.17 142.24)
-		(uuid "0f32bd4c-3a19-4c83-8c4a-4c82412a9f00")
-	)
-	(no_connect
 		(at 267.97 121.92)
 		(uuid "2072337c-1cc7-4b3b-b9b4-20f0e51db343")
 	)
@@ -7899,10 +7925,6 @@
 	(no_connect
 		(at 217.17 124.46)
 		(uuid "c13bf001-f664-4dcc-a359-ffe5ac891510")
-	)
-	(no_connect
-		(at 217.17 132.08)
-		(uuid "c7d1340a-e31a-47a0-bb0c-c4bce9329689")
 	)
 	(no_connect
 		(at 217.17 139.7)
@@ -8094,6 +8116,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 101.6) (xy 181.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd49d66-e3e7-4887-921f-99abb91cae56")
+	)
+	(wire
+		(pts
 			(xy 209.55 116.84) (xy 217.17 116.84)
 		)
 		(stroke
@@ -8111,6 +8143,16 @@
 			(type default)
 		)
 		(uuid "201e165b-ea25-4f88-830a-52f5abe9e6ee")
+	)
+	(wire
+		(pts
+			(xy 176.53 99.06) (xy 176.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c5f512-b8d4-4338-9a5c-c51d8c216186")
 	)
 	(wire
 		(pts
@@ -8211,6 +8253,16 @@
 			(type default)
 		)
 		(uuid "2f2cfbd5-dff4-4c40-919a-d65eeed5d24e")
+	)
+	(wire
+		(pts
+			(xy 176.53 109.22) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343a99ec-8653-424e-8c63-c5db7d931ed8")
 	)
 	(wire
 		(pts
@@ -9075,6 +9127,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 101.6) (xy 176.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20da266-c0d4-4432-9561-e5e89e78a01f")
+	)
+	(wire
+		(pts
 			(xy 266.7 19.05) (xy 262.89 19.05)
 		)
 		(stroke
@@ -9322,6 +9384,16 @@
 			(type default)
 		)
 		(uuid "ca05e493-d486-474a-a8d4-b892774832f8")
+	)
+	(wire
+		(pts
+			(xy 209.55 142.24) (xy 217.17 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1382b7-1ebc-406b-a1fa-f385580ae367")
 	)
 	(wire
 		(pts
@@ -9595,6 +9667,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 132.08) (xy 217.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6bb7ac-5d19-46f5-8dfc-def4863d8e86")
+	)
+	(wire
+		(pts
 			(xy 149.86 33.02) (xy 149.86 34.29)
 		)
 		(stroke
@@ -9864,6 +9946,16 @@
 		)
 		(uuid "3edc6309-e55b-483b-bd76-929300fe2ce9")
 	)
+	(label "CAM_TX"
+		(at 209.55 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f0accfc-eb0b-4b62-985e-5b38835e1825")
+	)
 	(label "SERVO_SWITCH"
 		(at 114.3 58.42 0)
 		(effects
@@ -10014,6 +10106,16 @@
 		)
 		(uuid "8534d22d-075f-4f01-b622-d8bd7349ebe1")
 	)
+	(label "CAM_RX"
+		(at 209.55 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90af4b03-e00b-4178-8a09-0647e4b8d743")
+	)
 	(label "GPIO18"
 		(at 209.55 116.84 0)
 		(effects
@@ -10083,6 +10185,16 @@
 			(justify left bottom)
 		)
 		(uuid "e82eefc8-3fb0-4b2c-8b07-13b8eafd74fe")
+	)
+	(label "CAM_VOLTAGE"
+		(at 181.61 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edb83c55-3b75-4fe5-b560-ae74eb6cb815")
 	)
 	(label "V_CHOOSE"
 		(at 247.65 31.75 0)
@@ -10601,6 +10713,84 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 176.53 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b1b666d-0c70-4d37-978a-d58f16477d81")
+		(property "Reference" "#PWR059"
+			(at 176.53 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 176.53 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 176.53 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38ddce7c-8f16-435a-aabf-6431cf23852b")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -14770,6 +14960,132 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 176.53 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c60efe7-814e-499e-9777-d0d1339e3fcb")
+		(property "Reference" "C14"
+			(at 179.07 104.8638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000u"
+			(at 179.07 107.4038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 176.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4138_A783"
+			(at 176.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 176.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey PN" "399-A783MW108M1ELAS011CT-ND"
+			(at 176.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Inductance" ""
+			(at 176.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" ""
+			(at 176.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 176.53 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c091745f-77e0-430d-acee-73793b881f57")
+		)
+		(pin "1"
+			(uuid "e545a014-abf0-4a32-b848-1c4b09b578f6")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -24241,6 +24557,84 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb781956-288b-4e14-a134-8d772c391f92")
+		(property "Reference" "#PWR058"
+			(at 176.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0bb4462-89af-4dab-8fbf-11084ecebcca")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
