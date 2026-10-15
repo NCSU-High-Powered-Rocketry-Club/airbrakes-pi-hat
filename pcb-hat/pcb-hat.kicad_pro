@@ -691,7 +691,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}-0.4.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -849,6 +849,18 @@
           "label": "Breakdown",
           "name": "Breakdown",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -915,7 +927,7 @@
         "uuid": "a3c2d30d-0751-4de7-a899-3d89ad40795d"
       }
     ],
-    "used_designators": "#PWR58-59,C14",
+    "used_designators": "R26-28,Q7,#PWR58-62,C14",
     "variants": []
   },
   "sheets": [
