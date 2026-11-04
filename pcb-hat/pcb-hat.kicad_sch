@@ -14,7 +14,7 @@
 		(comment 4 "Note about CAM_TX/CAM_RX: GPIO8 and GPIO9 will need to be exposed ")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Current:INA180A1"
+		(symbol "Amplifier_Current:INA180B1"
 			(pin_names
 				(offset 0.127)
 			)
@@ -34,7 +34,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "INA180A1"
+			(property "Value" "INA180B1"
 				(at 3.81 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -46,7 +46,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 1.27 1.27 0)
+				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -57,7 +57,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-				(at 3.81 3.81 0)
+				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -68,7 +68,7 @@
 				)
 			)
 			(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"
-				(at 0 0 0)
+				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -100,7 +100,7 @@
 					)
 				)
 			)
-			(symbol "INA180A1_0_1"
+			(symbol "INA180B1_0_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
@@ -114,14 +114,14 @@
 					)
 				)
 			)
-			(symbol "INA180A1_1_1"
-				(pin output line
-					(at 7.62 0 180)
+			(symbol "INA180B1_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name ""
+					(name "+"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -139,7 +139,7 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -152,12 +152,12 @@
 					)
 				)
 				(pin input line
-					(at -7.62 2.54 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "+"
+					(name "-"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -169,10 +169,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 -2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "-"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -193,7 +193,7 @@
 					(name "V+"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2077,6 +2077,129 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7980,12 +8103,6 @@
 		(uuid "318f64f9-f2fa-42f4-a3a6-a76d1af298d4")
 	)
 	(junction
-		(at 100.33 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "338e91ac-db26-497d-a02d-9b46bc5897a4")
-	)
-	(junction
 		(at 99.06 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8032,6 +8149,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b4e0939-aab5-4bfd-9534-bef49ef1426c")
+	)
+	(junction
+		(at 17.78 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5963e00d-d6fb-41e5-a739-5d92c27a397a")
 	)
 	(junction
 		(at 142.24 34.29)
@@ -8088,12 +8211,6 @@
 		(uuid "8665fa65-142e-4e30-b0e3-0ab936c3456e")
 	)
 	(junction
-		(at 105.41 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "868c185a-e5e2-438a-a81d-3b4a17f09963")
-	)
-	(junction
 		(at 176.53 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8110,6 +8227,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89aa46fd-2eb8-4e8f-9f02-14c757cccceb")
+	)
+	(junction
+		(at 105.41 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89e7a136-8942-40d0-afe2-ef0688c1a7ef")
 	)
 	(junction
 		(at 105.41 22.86)
@@ -8196,6 +8319,12 @@
 		(uuid "c6571fa6-0b64-474d-a17e-270e85920dd5")
 	)
 	(junction
+		(at 100.33 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caa50088-5ea5-46e6-8847-ccedc2da47e2")
+	)
+	(junction
 		(at 19.05 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8236,6 +8365,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fadb942c-1637-44ef-b2b0-078b381691e1")
+	)
+	(junction
+		(at 17.78 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff2fa6bb-e4c2-41e4-9bf2-95a898698a4e")
 	)
 	(no_connect
 		(at 267.97 124.46)
@@ -8354,6 +8489,16 @@
 			(type default)
 		)
 		(uuid "0b1c4695-0359-438d-baa8-02fef931cd65")
+	)
+	(wire
+		(pts
+			(xy 105.41 138.43) (xy 105.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c122892-4d49-475b-a63f-573a047b0335")
 	)
 	(wire
 		(pts
@@ -8575,6 +8720,16 @@
 		)
 		(uuid "2691f227-5d87-43cd-9722-f965a5fe4030")
 	)
+	(wire
+		(pts
+			(xy 100.33 138.43) (xy 100.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e45c98-fc45-4cc1-a971-4883908df980")
+	)
 	(polyline
 		(pts
 			(xy 113.03 52.07) (xy 113.03 76.2)
@@ -8617,13 +8772,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 138.43) (xy 100.33 140.97)
+			(xy 43.18 176.53) (xy 17.78 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f2cfbd5-dff4-4c40-919a-d65eeed5d24e")
+		(uuid "313e134f-dc8c-491d-87e6-fa759e355ee2")
 	)
 	(wire
 		(pts
@@ -9148,16 +9303,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 138.43) (xy 105.41 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7706430e-a3f8-432c-8f01-721c068f3168")
-	)
-	(wire
-		(pts
 			(xy 19.05 34.29) (xy 20.32 34.29)
 		)
 		(stroke
@@ -9185,6 +9330,16 @@
 			(type default)
 		)
 		(uuid "78129e8e-e9c8-449b-935a-33a4a58a64d8")
+	)
+	(wire
+		(pts
+			(xy 17.78 176.53) (xy 13.97 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79742801-b738-49eb-a295-f4b0ea047cf9")
 	)
 	(wire
 		(pts
@@ -9408,6 +9563,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 184.15) (xy 17.78 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33505b1-817a-4a9b-9840-46ea4930d3f9")
+	)
+	(wire
+		(pts
 			(xy 226.06 26.67) (xy 226.06 36.83)
 		)
 		(stroke
@@ -9465,6 +9630,16 @@
 			(type default)
 		)
 		(uuid "aa2dd8ae-58e3-464a-97c8-fa17b2384bc4")
+	)
+	(wire
+		(pts
+			(xy 17.78 184.15) (xy 43.18 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf80afe-30eb-48f7-8355-c3d2a789d335")
 	)
 	(wire
 		(pts
@@ -9955,6 +10130,16 @@
 			(type default)
 		)
 		(uuid "dc599d7d-5b3e-496a-82ba-28d9791d016d")
+	)
+	(wire
+		(pts
+			(xy 13.97 176.53) (xy 13.97 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de695439-8e10-4a11-aceb-9419fc420b52")
 	)
 	(wire
 		(pts
@@ -11154,6 +11339,85 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 43.18 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a5e4761-c7b9-4db5-94bd-16dba2b88dd6")
+		(property "Reference" "H4"
+			(at 45.72 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 45.72 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Maple_Mini"
+			(at 43.18 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 43.18 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37654957-d9ac-4293-9ed1-f3de24d612d7")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -17631,6 +17895,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 17.78 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b248419-ad7d-49c6-b016-2626fcaf1209")
+		(property "Reference" "H1"
+			(at 20.32 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 20.32 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Maple_Mini"
+			(at 17.78 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 17.78 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97a5ee39-f04b-4acb-9dc4-4b54c3871e24")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 74.93 33.02 0)
 		(unit 1)
@@ -18737,6 +19080,85 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 43.18 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b0e8a1c-8c4a-424f-b2e9-51d4c4660f3d")
+		(property "Reference" "H3"
+			(at 45.72 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 45.72 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Maple_Mini"
+			(at 43.18 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 43.18 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2262ac3-c45a-4311-be75-826e9bd8a8f2")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -20005,7 +20427,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Current:INA180A1")
+		(lib_id "Amplifier_Current:INA180B1")
 		(at 102.87 148.59 270)
 		(unit 1)
 		(body_style 1)
@@ -20025,7 +20447,7 @@
 				)
 			)
 		)
-		(property "Value" "INA180A1"
+		(property "Value" "INA180B1"
 			(at 93.218 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20036,7 +20458,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 104.14 149.86 0)
+			(at 81.28 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20047,7 +20469,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 106.68 152.4 0)
+			(at 83.82 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20058,7 +20480,7 @@
 			)
 		)
 		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"
-			(at 102.87 148.59 0)
+			(at 86.36 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21656,6 +22078,85 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 17.78 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1c423f5-0f64-48b8-9e89-a398ee3a751b")
+		(property "Reference" "H2"
+			(at 20.32 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 20.32 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Maple_Mini"
+			(at 17.78 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 17.78 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea5847a6-2e02-4efb-8b4d-3773466915c7")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -23461,6 +23962,84 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 17.78 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da96f526-3f46-4e9f-8ab7-69f9937972ec")
+		(property "Reference" "#PWR063"
+			(at 17.78 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89b52534-9a30-40eb-b91b-c98253284886")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
