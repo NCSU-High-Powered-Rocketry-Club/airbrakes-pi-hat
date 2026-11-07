@@ -8091,7 +8091,7 @@
 		(uuid "2cca3f2f-60ea-4a0e-96ed-298b58b0c019")
 	)
 	(junction
-		(at 179.07 147.32)
+		(at 176.53 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2df236fe-4c91-4a2a-b746-c6d2b52133a3")
@@ -8792,7 +8792,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 152.4) (xy 186.69 154.94)
+			(xy 184.15 152.4) (xy 184.15 154.94)
 		)
 		(stroke
 			(width 0)
@@ -10123,6 +10123,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 138.43) (xy 184.15 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbeb892e-56e0-404b-99ed-1f1655d0db6a")
+	)
+	(wire
+		(pts
 			(xy 179.07 27.94) (xy 179.07 26.67)
 		)
 		(stroke
@@ -10173,7 +10183,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 147.32) (xy 179.07 148.59)
+			(xy 176.53 147.32) (xy 176.53 148.59)
 		)
 		(stroke
 			(width 0)
@@ -10203,7 +10213,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 153.67) (xy 179.07 154.94)
+			(xy 176.53 153.67) (xy 176.53 154.94)
 		)
 		(stroke
 			(width 0)
@@ -10363,7 +10373,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 138.43) (xy 168.91 147.32)
+			(xy 166.37 138.43) (xy 166.37 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10423,7 +10433,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 147.32) (xy 179.07 147.32)
+			(xy 166.37 147.32) (xy 176.53 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10503,7 +10513,7 @@
 		(uuid "26bef5d3-7664-40d8-aae7-5551a08beb5d")
 	)
 	(label "FAN_NMOS"
-		(at 168.91 138.43 0)
+		(at 166.37 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11378,7 +11388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Maple_Mini"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopBottom"
 			(at 43.18 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13186,7 +13196,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 179.07 151.13 180)
+		(at 176.53 151.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13196,7 +13206,7 @@
 		(dnp no)
 		(uuid "309956c6-a6bb-401c-98c2-3c51994dc260")
 		(property "Reference" "R26"
-			(at 177.292 151.13 90)
+			(at 174.752 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13206,7 +13216,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 181.356 151.13 90)
+			(at 178.816 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13216,7 +13226,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 179.07 151.13 0)
+			(at 176.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13227,7 +13237,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 179.07 151.13 0)
+			(at 176.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13238,7 +13248,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 179.07 151.13 0)
+			(at 176.53 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13249,7 +13259,7 @@
 			)
 		)
 		(property "Digikey PN" "311-10.0KHRCT-ND"
-			(at 179.07 151.13 90)
+			(at 176.53 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13260,7 +13270,7 @@
 			)
 		)
 		(property "Inductance" ""
-			(at 179.07 151.13 90)
+			(at 176.53 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13271,7 +13281,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 179.07 151.13 90)
+			(at 176.53 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13282,7 +13292,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 179.07 151.13 90)
+			(at 176.53 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16369,6 +16379,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 184.15 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5515d8bf-2a90-4ee7-afbb-5d87fec942e4")
+		(property "Reference" "#PWR061"
+			(at 184.15 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDC"
+			(at 182.88 134.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 184.15 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cd7a2a8-4624-4c53-9f4a-fc2c3c82e600")
+		)
+		(instances
+			(project "pcb-hat"
+				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 57.15 67.31 90)
 		(unit 1)
@@ -17183,7 +17270,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 154.94 0)
+		(at 176.53 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17194,7 +17281,7 @@
 		(fields_autoplaced yes)
 		(uuid "61864e96-25c8-4023-bf3e-bb7fc0378b44")
 		(property "Reference" "#PWR060"
-			(at 179.07 161.29 0)
+			(at 176.53 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17205,7 +17292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 160.02 0)
+			(at 176.53 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17215,7 +17302,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-WROOM-2"
-			(at 179.07 154.94 0)
+			(at 176.53 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17226,7 +17313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 154.94 0)
+			(at 176.53 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17237,7 +17324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 154.94 0)
+			(at 176.53 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17928,7 +18015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Maple_Mini"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopBottom"
 			(at 17.78 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -19119,7 +19206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Maple_Mini"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopBottom"
 			(at 43.18 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -21387,7 +21474,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 184.15 147.32 0)
+		(at 181.61 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21395,10 +21482,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a512d145-cc4f-4ca0-9a70-b0797ee05e66")
 		(property "Reference" "Q7"
-			(at 190.5 146.0499 0)
+			(at 187.198 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21409,7 +21495,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 190.5 148.5899 0)
+			(at 187.198 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21420,7 +21506,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 189.23 144.78 0)
+			(at 186.69 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21431,7 +21517,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fdn327n-d.pdf"
-			(at 184.15 160.02 0)
+			(at 181.61 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21442,7 +21528,7 @@
 			)
 		)
 		(property "Description" "N-Channel 20 V 2A (Ta) 500mW (Ta) Surface Mount SOT-23-3"
-			(at 184.15 147.32 0)
+			(at 181.61 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21453,7 +21539,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 184.15 164.465 0)
+			(at 181.61 164.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21464,7 +21550,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 184.15 166.37 0)
+			(at 181.61 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21475,7 +21561,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 184.15 162.56 0)
+			(at 181.61 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22117,7 +22203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Maple_Mini"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_TopBottom"
 			(at 17.78 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -23135,7 +23221,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 154.94 0)
+		(at 184.15 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23146,7 +23232,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7d12979-21c6-438f-aaba-33c430830aee")
 		(property "Reference" "#PWR062"
-			(at 186.69 161.29 0)
+			(at 184.15 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23157,7 +23243,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 160.02 0)
+			(at 184.15 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23167,7 +23253,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-WROOM-2"
-			(at 186.69 154.94 0)
+			(at 184.15 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23178,7 +23264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 154.94 0)
+			(at 184.15 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23189,7 +23275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 154.94 0)
+			(at 184.15 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25415,84 +25501,6 @@
 			(project "pcb-hat"
 				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDC")
-		(at 186.69 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eea2e91e-8e9f-4981-9ef6-1c8da751b8e7")
-		(property "Reference" "#PWR061"
-			(at 186.69 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDC"
-			(at 186.69 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 186.69 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 186.69 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "52847980-4e53-4692-b857-2d0295c9a0b8")
-		)
-		(instances
-			(project "pcb-hat"
-				(path "/a3c2d30d-0751-4de7-a899-3d89ad40795d"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)

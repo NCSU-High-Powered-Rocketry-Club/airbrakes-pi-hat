@@ -1,0 +1,113 @@
+(footprint "Fan Connector"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "FAN"
+		(at 4.25 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5742d026-93e6-4e21-9141-ea2ae2d1290a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Fan Connection"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6cbb526f-295a-4ff9-8e8a-b73083af3293")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4134c04f-d4e7-46c5-acbd-50305db68b68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fbdb3f8-6714-4685-80ef-712fce6af1b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "-"
+		(at -1.9 -0.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2215e20f-0e62-442a-91c7-d6c44c0a7d75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 0.6 -0.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6949fdde-e22e-476e-aa77-32be594cb892")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "66795cef-836f-4263-936e-804475787a37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.25 -2.5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd9e7250-012b-4bfb-83c9-fbc7b6f3635e")
+	)
+	(pad "2" thru_hole circle
+		(at 1.25 -2.5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f8a6963-59c4-4c61-8dce-9cdbad721fa7")
+	)
+	(embedded_fonts no)
+)
