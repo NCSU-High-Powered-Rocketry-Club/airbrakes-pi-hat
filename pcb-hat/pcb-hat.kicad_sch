@@ -8462,12 +8462,6 @@
 		(uuid "257a1533-412d-494d-a2a5-411ccd42a325")
 	)
 	(junction
-		(at 170.18 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2668ce2d-7023-49ac-896e-ec05c36d8c8d")
-	)
-	(junction
 		(at 271.78 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8748,12 +8742,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cefaef97-8971-4337-a9d6-18ada45585c3")
-	)
-	(junction
-		(at 170.18 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ceff0cb7-23cb-435c-a31f-28973a8e6a75")
 	)
 	(junction
 		(at 19.05 111.76)
@@ -9305,16 +9293,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 156.21) (xy 170.18 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b875191-387b-47ce-85c5-572915e39de3")
-	)
-	(wire
-		(pts
 			(xy 22.86 137.16) (xy 24.13 137.16)
 		)
 		(stroke
@@ -9362,6 +9340,16 @@
 			(type default)
 		)
 		(uuid "3f99a1a4-e481-44ca-ad5c-355386ad4098")
+	)
+	(wire
+		(pts
+			(xy 170.18 154.94) (xy 170.18 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9c390b-5e22-4972-a184-bcdaab7788b6")
 	)
 	(wire
 		(pts
@@ -10196,16 +10184,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 151.13) (xy 170.18 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b561aac0-1ae3-44e5-a52b-9e811f89ff34")
-	)
-	(wire
-		(pts
 			(xy 228.6 46.99) (xy 228.6 52.07)
 		)
 		(stroke
@@ -10753,16 +10731,6 @@
 			(type default)
 		)
 		(uuid "ed71b83a-344a-40e7-af7b-1322a9959b37")
-	)
-	(wire
-		(pts
-			(xy 170.18 149.86) (xy 170.18 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb62174-9301-4dd9-a8f0-bf181aa8f37d")
 	)
 	(wire
 		(pts
@@ -17255,7 +17223,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 170.18 153.67 180)
+		(at 170.18 152.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17265,7 +17233,7 @@
 		(dnp no)
 		(uuid "59ee8bcb-c86b-44ad-bb88-f11c332990d3")
 		(property "Reference" "R26"
-			(at 168.402 153.67 90)
+			(at 168.402 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17275,7 +17243,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 172.466 153.67 90)
+			(at 172.466 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17285,7 +17253,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 170.18 153.67 0)
+			(at 170.18 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17296,7 +17264,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 170.18 153.67 0)
+			(at 170.18 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17307,7 +17275,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 170.18 153.67 0)
+			(at 170.18 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17318,7 +17286,7 @@
 			)
 		)
 		(property "Digikey PN" "311-10.0KHRCT-ND"
-			(at 170.18 153.67 90)
+			(at 170.18 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17329,7 +17297,7 @@
 			)
 		)
 		(property "Inductance" ""
-			(at 170.18 153.67 90)
+			(at 170.18 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17340,7 +17308,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 170.18 153.67 90)
+			(at 170.18 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17351,7 +17319,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 170.18 153.67 90)
+			(at 170.18 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
